@@ -4,15 +4,13 @@ var customerName = 'bob';
 function upperCaseCustomerName() {
   customerName = customerName.toUpperCase();
 }
-// upperCaseCustomerName(customerName)
 
 function setBestCustomer() {
   customerName = 'not bob';
 }
-// setBestCustomer(customerName)
 
 function overwriteBestCustomer() {
-  customerName = 'maybe bob';
+  bestCustomer = 'maybe bob';
 }
 
 const leastFavoriteCustomer = 'bobbert'
