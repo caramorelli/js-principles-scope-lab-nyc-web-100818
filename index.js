@@ -1,7 +1,9 @@
 // Write your solution in this file!
 var customerName = 'bob';
 
-
+function upperCaseCustomerName() {
+  
+}
 
   describe('upperCaseCustomerName()', function() {
     it('modifies the customerName variable', function() {
