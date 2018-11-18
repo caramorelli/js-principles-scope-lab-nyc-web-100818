@@ -2,18 +2,15 @@
 var customerName = 'bob';
 
 function upperCaseCustomerName(customerName) {
-  customerName.toUpperCase()
+  customerName.toUpperCase();
 }
+// upperCaseCustomerName(customerName)
 
-  describe('upperCaseCustomerName()', function() {
-    it('modifies the customerName variable', function() {
-      expect(window.customerName).to.equal('bob');
+function upperCaseCustomerName(customerName) {
+  customerName.toUpperCase();
+}
+upperCaseCustomerName(customerName)
 
-      upperCaseCustomerName();
-
-      expect(window.customerName).to.equal('BOB');
-    });
-  });
   describe('setBestCustomer()', function() {
     it('setBestCustomer', function() {
       expect(window.bestCustomer).to.equal(undefined);
