@@ -7,12 +7,12 @@ function upperCaseCustomerName(customerName) {
 // upperCaseCustomerName(customerName)
 
 function setBestCustomer(customerName) {
-  return 'not bob';
+  customerName = 'not bob';
 }
 // setBestCustomer(customerName)
 
-function overwriteBestCustomer() {
-  'maybe bob';
+function overwriteBestCustomer(customerName) {
+  customerName = 'maybe bob';
 }
 
 
