@@ -6,10 +6,10 @@ function upperCaseCustomerName(customerName) {
 }
 // upperCaseCustomerName(customerName)
 
-function upperCaseCustomerName(customerName) {
-  customerName.toUpperCase();
+function setBestCustomer(customerName) {
+  customerName = 'not bob'
 }
-upperCaseCustomerName(customerName)
+setBestCustomer(customerName)
 
   describe('setBestCustomer()', function() {
     it('setBestCustomer', function() {
